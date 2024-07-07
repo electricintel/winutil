@@ -1,3 +1,25 @@
+*******************************************************************************************************************************
+                                         QUICK INSTRUCTIONS
+                                         
+Download the source code and unzip it
+            OR
+Download the ps1 release from the master branch
+
+Open PowerShell as Administrator
+
+CD to the folder with winutil.psi 
+
+Copy and paste or type these commands one at a time:
+Set-ExecutionPolicy Bypass
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy RemoteSigned –Scope Process
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\winutil.ps1
+
+*******************************************************************************************************************************************8
+
+
+
 # Chris Titus Tech's Windows Utility
 
 [![Version](https://img.shields.io/github/v/release/ChrisTitusTech/winutil?color=7a39fb)](https://github.com/ChrisTitusTech/winutil/releases/latest)
